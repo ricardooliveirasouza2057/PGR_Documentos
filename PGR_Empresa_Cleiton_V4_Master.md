@@ -67,13 +67,13 @@ $$P = (\sum \text{Pesos das Infrações}) \times \text{Fator de Correção}$$
 
 ```mermaid
 graph TD
-    A[Chegada ao Local] --> B{Análise de Risco (APR)};
+    A[Chegada ao Local] --> B{Análise de Risco APR};
     B -- Risco Controlado --> C[Sinalização da Área];
     B -- Risco Grave --> Z[Abortar/Solicitar Apoio];
     C --> D[Posicionamento da Escada];
     D --> E[Ancoragem da Escada];
     E --> F[Subida do Técnico];
-    F --> G[Verificação de Tensão (Detector)];
+    F --> G[Verificação de Tensão Detector];
     G --> H[Execução da Instalação];
     H --> I[Descida e Desmobilização];
 ```
